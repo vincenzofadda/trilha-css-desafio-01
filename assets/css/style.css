@@ -1,14 +1,24 @@
 @import url('./reset.css');
 
-header {
-  padding-top: 5vh;
-  text-align: center;
+* {
+  color: white;
+  
 }
 
 .banner {
   background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2)), url('../images/banner.png');
   background-size: cover;
+  background-repeat: no-repeat;
   height: 605px;
+  padding-top: 6vh;
+  border-bottom: 1px solid #33A8DB80;
+  background-color: black;
+}
+
+.banner .banner-content {
+  width: 600px;
+  margin: auto;
+  text-align: center;
 }
 
 .logo {
@@ -17,8 +27,38 @@ header {
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.2);
-  width: 270px;
-  height: 270px;
+  width: 30vh;
+  height: 30vh;
   border-radius: 50%;
+}
+
+h1 {
+  padding-top: 2vh;
+  font-size: 2.5rem;
+  font-weight: 900;
+  background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.banner-content>p {
+  font-size: 1.25rem;
+  margin: 1rem 0 1.5rem;
+}
+
+button {
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 0.3rem;
+  background: linear-gradient(180deg, #3BA1CD 0%, #1572B7 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  border: 2px solid black;
+  border-image-source: linear-gradient(180deg, #3BA1CD 0%, #1572B7 100%);
+  border-image-slice: 10;
+  padding: 1rem 2rem;
+  cursor: pointer;
 }
 
