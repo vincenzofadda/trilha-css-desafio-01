@@ -36,6 +36,9 @@ h1 {
   padding-top: 2vh;
   font-size: 2.5rem;
   font-weight: 900;
+}
+
+h1, h2 {
   background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
   -webkit-background-clip: text;
   color: transparent;
@@ -61,4 +64,90 @@ button {
   padding: 1rem 2rem;
   cursor: pointer;
 }
+
+main{
+  background-color: black;
+  text-align: center;
+  padding-top: 10vh;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+}
+
+#course-content {
+  max-width: 45vw;
+  margin: auto;
+  margin-bottom: 12vh;
+}
+
+#course-content h2 {
+  margin-bottom: 2vh;
+}
+
+#course-content>p {
+  margin-bottom: 2vh;
+}
+
+#course-content span {
+  color: #33A8DB;
+}
+
+.module {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #252525;
+  border: 1px solid #33A8DB;
+  width: 25vw;
+  height: 5vh;
+  margin: auto;
+  margin-bottom: 2vh;
+  border-radius: 2.5vh;
+  box-shadow: -2px 6px 4px 0px #00000066 inset;
+}
+
+#transform-world {
+  height: 560px;
+  background-image: url(../images/woman-code.png);
+  background-size: cover;
+  background-attachment: fixed;
+  border-top: 1px solid #33A8DB;
+  border-bottom: 1px solid #33A8DB;
+  margin-bottom: 10vh;
+}
+
+#transform-world p {
+  text-align: left;
+  text-transform: lowercase;
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-shadow: 3px 2px #33A8DB;
+  width: 13vw;
+  padding: 20vh 10vw;
+}
+
+#professional-challenges {
+  width: 750px;
+  margin: auto;
+  padding-bottom: 8vh;
+}
+
+#professional-challenges h2, img {
+  margin-bottom: 2vh;
+}
+
+#professional-challenges p {
+  font-size: 1rem;
+  width: 792px;
+  font-weight: 400;
+  margin-bottom: 2vh;
+}
+
+
+
+
 
