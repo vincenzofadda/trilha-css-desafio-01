@@ -147,6 +147,20 @@ h2 {
   margin-bottom: 2vh;
 }
 
+footer {
+  background-color: black;
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2));
+  border-top: 1px solid #33A8DB;
+  padding: 7vh 0 5vh;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #33A8DB;
+  font-weight: 700;
+}
+
 
 
 
